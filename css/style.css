@@ -852,6 +852,22 @@ display: none;
         margin: 2rem;
         font-size:2rem ;
     }
+        #endMessage{
+        max-height: 20%;
+    }
+    #endMessage h3 {
+        font-size: 2rem;
+        padding-bottom: 0.0rem;
+      }
+      #endMessage p {
+        font-size: 1rem;
+        margin-bottom: 0rem;
+      }
+    
+      #endMessage .btn {
+        padding: 0.2rem 0.6rem;
+        font-size: 1rem;
+      }
 }
 
 @media(max-width:450px){
