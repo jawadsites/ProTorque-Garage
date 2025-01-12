@@ -699,10 +699,10 @@ display: none;
 /* end message start */
 #endMessage {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 1rem;
+    right: 1.25rem;
     z-index: 999;
-    height: auto;
+    max-height: auto;
     width: auto;
     max-width: 90%;
     background: rgba(255, 255, 255, 0.95);
@@ -710,11 +710,11 @@ display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 1.25rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(61.25rem);
     transition: all 0.3s ease-in-out;
   }
 
@@ -740,7 +740,7 @@ display: none;
 
   #endMessage .btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.7rem 1.25rem;
     background-color: #ff4500;
     color: white;
     text-decoration: none;
