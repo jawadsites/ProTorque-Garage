@@ -868,6 +868,56 @@ display: none;
         padding: 0.2rem 0.6rem;
         font-size: 1rem;
       }
+          .newsletter{
+        width: 100%;
+        padding: 10rem 25rem;
+        text-align: center;
+        background: url(../images/letter-bg.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .newsletter h3
+    {   position: relative;
+        right: 9rem;
+        margin: 0 4rem;
+        color: var(--black);
+        width: 15rem;
+        font-size: 1rem;
+    }
+    
+    
+    .newsletter form{
+        position: relative;
+       right:11rem ;
+       width: 27rem;
+       height: 5rem;
+       display: flex;
+       box-shadow: var(--box-shadow);
+       background-size: var(--box-shadow);
+       overflow: hidden;
+       border-radius: 5rem;
+    }
+    
+    
+    .newsletter form input[type="email"]{
+        height: 100%;
+        width: 100%;
+        font-size: 1.6rem;
+        color: var(--black);
+        text-transform: none;
+        padding: 0 2rem;
+    }
+    
+    .newsletter form input[type="submit"]{
+        height: 100%;
+        width: 17rem;
+        font-size: 1.7rem;
+        color: var(--black);
+        background: var(--light-yellow);
+        cursor: pointer;
+    }
+}
 }
 
 @media(max-width:450px){
