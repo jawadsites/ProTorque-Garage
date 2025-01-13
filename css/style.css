@@ -917,7 +917,9 @@ display: none;
         background: var(--light-yellow);
         cursor: pointer;
     }
-}
+    .footer{
+      width: 100%; 
+    }
 }
 
 @media(max-width:450px){
